@@ -1,0 +1,45 @@
+{
+  "heroes": [
+    {
+      "name": "First",
+      "attack": 1,
+      "defence": 1,
+      "armies": [
+        {
+          "id": "C",
+          "name": "dwarf",
+          "attack": 3,
+          "defence": 3,
+          "amount": 152,
+          "healthPerUnit": 30,
+          "lastUnitHealth": 30
+        }
+      ]
+    },
+    {
+      "name": "Second",
+      "attack": 1,
+      "defence": 1,
+      "armies": [
+        {
+          "id": "C",
+          "name": "dwarf",
+          "attack": 3,
+          "defence": 3,
+          "amount": 152,
+          "healthPerUnit": 30,
+          "lastUnitHealth": 30
+        },
+        {
+          "id": "G",
+          "name": "dwarf",
+          "attack": 3,
+          "defence": 3,
+          "amount": 152,
+          "healthPerUnit": 30,
+          "lastUnitHealth": 30
+        }
+      ]
+    }
+  ]
+}
