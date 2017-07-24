@@ -1,7 +1,7 @@
 # build
 mvn clean package
 
-#run 
+# run 
 java -jar target/h2m_calc-1.0-SNAPSHOT.jar
 
 # use
@@ -13,3 +13,11 @@ http://localhost:32320/calc/print
 
 ## action
 http://localhost:32320/calc/attack/First/C/Second/C
+
+# Docker
+## build
+```sudo docker  build  -t calc .```
+## run
+```sudo docker run -it -p 32320:32320  calc -i```
+## test
+```curl http://localhost:32320/calc/print```
