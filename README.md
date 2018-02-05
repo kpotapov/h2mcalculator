@@ -21,3 +21,8 @@ http://localhost:32320/calc/attack/First/C/Second/C
 ```sudo docker run -it -p 32320:32320  calc -i```
 ## test
 ```curl http://localhost:32320/calc/print```
+
+# open swagger api
+http://localhost:32320/swagger-ui.html#/
+http://localhost:32320/v2/api-docs
+http://localhost:32320/swagger-resources
